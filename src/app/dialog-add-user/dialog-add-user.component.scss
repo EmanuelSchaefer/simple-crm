@@ -1,7 +1,16 @@
 .main-dialogDiv {
+    position: relative;
     overflow: hidden;
     padding: 20px;
     box-sizing: border-box;
+
+    mat-progress-bar {
+        position: absolute;
+        left: -24px;
+        right: -24px;
+        top: 0px;
+        width: calc(100% + 48px);
+    }
 }
 
 h1 {
