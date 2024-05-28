@@ -1,0 +1,23 @@
+.main-dialogDiv {
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.buttonClass {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    button {
+        height: 5vh;
+        width: 6vw;
+        font-size: 18px;
+    }
+}
