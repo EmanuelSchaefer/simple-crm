@@ -45,6 +45,7 @@ export class DialogAddUserComponent {
     addDoc(usersCollection, {
       firstName: this.user.firstName,
       lastName: this.user.lastName,
+      email: this.user.email,
       birthDate: this.user.birthDate,
       street: this.user.street,
       zipCode: this.user.zipCode,
